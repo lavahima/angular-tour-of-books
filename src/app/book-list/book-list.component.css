@@ -1,0 +1,27 @@
+ul{
+    text-decoration: none ;
+    list-style: none;
+    margin: 0 auto;
+    width: 680px;
+}
+li{
+  
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    border-bottom: none;
+}
+li:last-child{
+    border: 1px solid grey;
+}
+li:nth-child(even) {background-color: #E0DADC;}
+span{
+    width: 200px;
+    text-align: center;
+    padding: 8px;
+    border-right: 1px solid grey;
+}
+span:last-child{
+    border: none;
+}

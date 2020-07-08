@@ -1,0 +1,12 @@
+.main-wrapper{
+    margin: 0 auto;
+    width: 30%;
+    border: 1px solid grey;
+}
+.child-section{
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+.child-section:last-child{
+    border: none;
+}

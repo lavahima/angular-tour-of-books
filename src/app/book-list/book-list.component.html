@@ -1,0 +1,13 @@
+<ul>
+    <li>
+        <span><b>Book ID</b></span>
+        <span><b>Book Name</b></span>
+        <span><b>Action</b></span>
+    </li>
+    <li *ngFor="let book of book">
+    <span>{{book.id}}  </span>  <span>{{book.name}}</span>
+    <span>
+    <button [routerLink]= "['/bookDetail', book.id]">Detail</button>
+    </span>
+    </li>
+</ul>
